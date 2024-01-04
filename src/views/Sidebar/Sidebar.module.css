@@ -1,0 +1,54 @@
+.sidebarWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 12px 20px;
+  min-width: 230px;
+  background-color: var(--bg-grey-100);
+  border-right: 1px solid var(--bg-grey-200);
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+
+  .storeIcon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px;
+    box-shadow:
+      0px 2px 5px 0px rgba(60, 66, 87, 0.08),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .header {
+    color: var(--bg-grey-900);
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.menuItem,
+.menuItemHome {
+  display: flex;
+  cursor: pointer;
+  gap: 14px;
+}
+
+.menuItemHome {
+  color: var(--bg-blue);
+}
+
+.menuItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

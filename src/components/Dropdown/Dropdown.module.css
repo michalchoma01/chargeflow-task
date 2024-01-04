@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.textWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 200ms ease-in-out;
+}
+
+.textWrapper:hover {
+  opacity: 0.8;
+}
+
+.title {
+  color: var(--bg-grey-700);
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.icon {
+  transform: rotate(180deg);
+  width: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.rotate {
+  transform: rotate(0deg);
+}
+
+.open {
+  opacity: 0;
+}
+
+.close {
+  opacity: 1;
+}

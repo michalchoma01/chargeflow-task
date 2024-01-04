@@ -1,0 +1,29 @@
+*,
+&::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-grey-100: #f7fafc;
+  --bg-grey-200: #e3e8ee;
+  --bg-grey-300: #d9dce1;
+  --bg-grey-400: #c2c7cf;
+  --bg-grey-500: #a3acb9;
+  --bg-grey-600: #697386;
+  --bg-grey-700: #4f566b;
+  --bg-grey-800: #3c4257;
+  --bg-grey-900: #1a1f36;
+  --bg-blue: #5469d4;
+}
+
+h1 {
+  color: var(--bg-grey-900);
+  font-family: SF Pro Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
